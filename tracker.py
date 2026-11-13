@@ -40,7 +40,7 @@ def send_discord_notification(html_content):
     
     # Discord webhook pro zprávy (můžeme poslat čistý text nebo embed v JSON)
     payload = {
-        "content": "🔔 **Den ní hlášení: Sledování konkurence Roblox assetů**\n" + html_content
+        "content": "🔔 **Denní hlášení: Sledování konkurence Roblox assetů**\n" + html_content
     }
     
     req = urllib.request.Request(
