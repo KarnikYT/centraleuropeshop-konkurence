@@ -2,8 +2,11 @@ name: Roblox Competitor Tracker
 
 on:
   schedule:
-    - cron: '0 8 * * *' # Spustí se každý den v 8:00 UTC
-  workflow_dispatch: # Umožňuje ruční spuštění z GitHub rozhraní
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write # <--- TOTO JE KLÍČOVÉ PRO ZÁPIS DO REPOZITÁŘE
 
 jobs:
   track:
