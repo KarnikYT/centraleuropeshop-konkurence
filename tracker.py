@@ -10,7 +10,7 @@ STATE_FILE = "state.json"
 current_data = {
     "Kladenské Dílny": {
         "Karosa C 954": {"price": 149, "currency": "CZK", "available": True},
-        "SOR NB 12": {"price": 19, "currency": "CZK", "available": True}
+        "SOR NB 12": {"price": 199, "currency": "CZK", "available": True}
     },
     "DevyBus": {
         "Citybus 12M Pack": {"price": 250, "currency": "CZK", "available": True}
